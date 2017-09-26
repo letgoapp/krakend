@@ -6,7 +6,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/letgoapp/krakend/config"
 )
 
 // Response is the entity returned by the proxy

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/encoding"
+	"github.com/letgoapp/krakend/config"
+	"github.com/letgoapp/krakend/encoding"
 	"io"
 )
 

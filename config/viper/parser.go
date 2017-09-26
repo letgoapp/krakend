@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/letgoapp/krakend/config"
 )
 
 // New creates a new parser using the viper library

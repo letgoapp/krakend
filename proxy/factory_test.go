@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/logging/gologging"
+	"github.com/letgoapp/krakend/config"
+	"github.com/letgoapp/krakend/logging/gologging"
 )
 
 func TestDefaultFactory_noBackends(t *testing.T) {

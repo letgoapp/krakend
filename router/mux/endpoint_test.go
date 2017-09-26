@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/proxy"
+	"github.com/letgoapp/krakend/config"
+	"github.com/letgoapp/krakend/proxy"
 )
 
 func TestEndpointHandler_ok(t *testing.T) {

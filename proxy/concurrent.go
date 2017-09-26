@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/letgoapp/krakend/config"
 )
 
 // NewConcurrentMiddleware creates a proxy middleware that enables sending several requests concurrently

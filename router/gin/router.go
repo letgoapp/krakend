@@ -8,10 +8,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/logging"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/letgoapp/krakend/config"
+	"github.com/letgoapp/krakend/logging"
+	"github.com/letgoapp/krakend/proxy"
+	"github.com/letgoapp/krakend/router"
 )
 
 // Config is the struct that collects the parts the router should be builded from

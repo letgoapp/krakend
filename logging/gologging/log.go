@@ -6,7 +6,7 @@ import (
 
 	gologging "github.com/op/go-logging"
 
-	"github.com/devopsfaith/krakend/logging"
+	"github.com/letgoapp/krakend/logging"
 )
 
 // NewLogger returns a krakend logger wrapping a gologging logger

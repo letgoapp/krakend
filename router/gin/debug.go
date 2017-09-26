@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/devopsfaith/krakend/logging"
+	"github.com/letgoapp/krakend/logging"
 )
 
 // DebugHandler creates a dummy handler function, useful for quick integration tests

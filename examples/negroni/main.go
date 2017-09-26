@@ -11,11 +11,11 @@ import (
 	"github.com/zbindenren/negroni-prometheus"
 	"gopkg.in/unrolled/secure.v1"
 
-	"github.com/devopsfaith/krakend/config/viper"
-	"github.com/devopsfaith/krakend/logging/gologging"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router/mux"
-	krakendnegroni "github.com/devopsfaith/krakend/router/negroni"
+	"github.com/letgoapp/krakend/config/viper"
+	"github.com/letgoapp/krakend/logging/gologging"
+	"github.com/letgoapp/krakend/proxy"
+	"github.com/letgoapp/krakend/router/mux"
+	krakendnegroni "github.com/letgoapp/krakend/router/negroni"
 )
 
 func main() {

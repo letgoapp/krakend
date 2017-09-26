@@ -10,11 +10,11 @@ BIN_NAME=krakend_rss_example_${KRAKEND_VERSION}
 all: deps build
 
 deps:
-	go get "github.com/devopsfaith/krakend/config/viper"
-	go get "github.com/devopsfaith/krakend/proxy"
-	go get "github.com/devopsfaith/krakend/router/gin"
-	go get "github.com/devopsfaith/krakend/logging/gologging"
+	go get "github.com/letgoapp/krakend/config/viper"
+	go get "github.com/letgoapp/krakend/proxy"
+	go get "github.com/letgoapp/krakend/router/gin"
+	go get "github.com/letgoapp/krakend/logging/gologging"
 
 build:
-	go build -ldflags="-X github.com/devopsfaith/krakend/core.KrakendVersion=${KRAKEND_VERSION}" -o ${BIN_NAME}
+	go build -ldflags="-X github.com/letgoapp/krakend/core.KrakendVersion=${KRAKEND_VERSION}" -o ${BIN_NAME}
 	@echo "You can now use ./${BIN_NAME}"

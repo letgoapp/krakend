@@ -9,13 +9,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/config/viper"
-	"github.com/devopsfaith/krakend/logging"
-	"github.com/devopsfaith/krakend/logging/gologging"
-	"github.com/devopsfaith/krakend/proxy"
-	krakendgin "github.com/devopsfaith/krakend/router/gin"
-	"github.com/devopsfaith/krakend/sd/etcd"
+	"github.com/letgoapp/krakend/config"
+	"github.com/letgoapp/krakend/config/viper"
+	"github.com/letgoapp/krakend/logging"
+	"github.com/letgoapp/krakend/logging/gologging"
+	"github.com/letgoapp/krakend/proxy"
+	krakendgin "github.com/letgoapp/krakend/router/gin"
+	"github.com/letgoapp/krakend/sd/etcd"
 )
 
 func main() {

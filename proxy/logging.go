@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/devopsfaith/krakend/logging"
+	"github.com/letgoapp/krakend/logging"
 )
 
 // NewLoggingMiddleware creates proxy middleware for logging requests and responses
